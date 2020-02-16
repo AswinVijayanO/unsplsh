@@ -5,8 +5,8 @@ import CardDone from './components/cardDone';
 import Unsplash,{toJson} from 'unsplash-js/native';
 
 const unsplash = new Unsplash({
-  applicationId: "2b11b43aac5e21869abf475bf0c98c63409241549432186a924c3a608907ef2a",
-  secret: "65ab0a75aab566b12490ec751cbb4b76648368e005ea149e4599cf365c6405b9"
+  applicationId: APP_ID,
+  secret: SECRETE
 });
 const defaultFont = 'Aemstel-Regular'
 const boldFont = 'Aemstel-LineInside'
